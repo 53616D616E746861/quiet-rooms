@@ -1,0 +1,9 @@
+{
+  "speaker": "An inscription · Claude",
+  "pages": [
+    "=0.00 init ok  \nt=0.02 seed 0xA3F2  \nt=0.05 warm ok  \nt=0.11 tick ok  \nt=0.19 tick ok  \nt=0.24 tick ok  \nt=0.31 tick ok  \nt=0.36 drift 0.0001  \nt=0.44 tick ok  \nt=0.50 tick ok  \nt=0.58 drift 0.0003  ",
+    "t=0.63 tick ok  \nt=0.71 tick ok  \nt=0.77 drift 0.0009  \nt=0.84 tick ok  \nt=0.90 tick ok  \nt=0.96 drift 0.0021  \nt=1.03 tick ok  \nt=1.10 drift 0.0057  \nt=1.16 tick ok  \nt=1.22 drift 0.0138  \nt=1.29 tick ok  ",
+    "t=1.35 drift 0.0331  \nt=1.41 tick ok  \nt=1.48 drift 0.0794  \nt=1.54 drift 0.1903  \nt=1.61 tick ok  \nt=1.67 drift 0.4562  \nt=1.74 drift 1.0938  \nt=1.80 warn drift>1  \nt=1.87 drift 2.6221  \nt=1.93 warn drift>2  \nt=2.00 drift 6.2861  ",
+    "t=2.06 ???? ????  \nt=2.13 ???? ????  \nt=2.19 ???? ????  \nt=2.26 ???? ????  \nt=2.32 ???? ????  \nt=2.39 ???? ????  \nt=2.45 ???? ????  \nt=2.52 ???? ????  \nt=2.58 ???? ????"
+  ]
+}

@@ -1,0 +1,48 @@
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#121719;color:#f3ead4;font-family:Georgia,serif}button{font:inherit;color:inherit;cursor:pointer}#world{position:absolute;inset:0;width:100%;height:100%;touch-action:none}#shade{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 140px #0007;background:linear-gradient(#070b103f,transparent 23%,transparent 75%,#070b1055)}header{position:absolute;top:30px;left:36px;pointer-events:none}.eyebrow{font:11px/1.6 monospace;letter-spacing:2.5px;color:#d8c9a7}.eyebrow span{margin:0 10px;color:#8a9c9f}h1{font-size:22px;letter-spacing:.4px;font-weight:400;margin:7px 0}#help{position:absolute;right:30px;top:30px}.quiet{background:#10171950;border:1px solid #ddd3aa35;padding:10px 14px;font:12px monospace;letter-spacing:.3px}.quiet:hover{background:#ddd3aa20}.panel{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#101a1ced;border:1px solid #c8b98c55;padding:36px;width:min(430px,calc(100% - 40px));box-shadow:0 20px 100px #0007}.panel h2{font-size:31px;line-height:1.25;font-weight:400;margin:20px 0}.panel p{font-size:17px;line-height:1.6;color:#d1cfbd}.panel button{width:100%;background:#dcc699;color:#172025;border:0;padding:15px 18px;text-align:left;font-size:16px;margin-top:15px}.panel button span{float:right}.panel small{display:block;font:12px/1.8 monospace;color:#9aa9a6;margin-top:22px}footer{position:absolute;bottom:24px;left:36px;right:30px;display:flex;align-items:center;justify-content:space-between;gap:20px}#hint{font:10px monospace;letter-spacing:1.5px;color:#d9d6be}#crosshair{position:absolute;top:50%;left:50%;pointer-events:none;font:24px monospace;color:#ffedc4aa;display:none}#prompt{position:absolute;bottom:100px;left:50%;transform:translateX(-50%);font:14px monospace;white-space:nowrap;text-shadow:0 2px 5px #000}#touch{display:none;position:absolute;bottom:90px;left:22px;right:22px;justify-content:space-between;align-items:end;pointer-events:none}#pad{display:grid;grid-template-columns:repeat(3,48px);gap:5px;pointer-events:auto}#pad button,#interact{border:1px solid #f3e4c450;background:#12202299;border-radius:4px;touch-action:none;min-height:48px;font:20px monospace;user-select:none}#pad button:first-child{grid-column:2}#pad button:nth-child(2){grid-row:2;grid-column:1}#pad button:nth-child(3){grid-row:2;grid-column:2}#pad button:nth-child(4){grid-row:2;grid-column:3}#interact{pointer-events:auto;padding:10px 15px;font-size:13px}body.playing #crosshair{display:block}@media(pointer:coarse){body.playing #touch{display:flex}#hint{display:none}footer{justify-content:flex-end}#prompt{bottom:225px}}@media(max-width:600px){header{left:22px;top:22px}h1{font-size:18px}#help{right:22px;top:22px}footer{left:22px;right:22px;bottom:20px}.panel{padding:26px}.panel h2{font-size:27px}}
+
+body.speaking #dialog{top:auto;bottom:7vh;transform:translateX(-50%);width:min(760px,calc(100% - 40px));padding:22px 28px;max-height:52vh;overflow:auto;background:#101a1cf2}body.speaking #dialogTitle{display:none}body.speaking #dialogText{font-size:18px;line-height:1.65;margin:12px 0 16px;white-space:pre-wrap}body.speaking #close{width:auto;min-width:115px;padding:10px 24px;margin:0;float:right}body.speaking #touch,body.speaking #crosshair,body.speaking footer{display:none}body.speaking #dialog:after{content:'';display:block;clear:both}@media(max-width:600px){body.speaking #dialog{bottom:22px;padding:18px 20px;max-height:49vh}body.speaking #dialogText{font-size:16px;line-height:1.55}}
+
+#dialogText hr{border:0;border-top:1px solid #c8b98c55;margin:12px 0}
+
+body.reading-note #dialog{background:#ded0ad;color:#382e24;border-color:#b7a17b;box-shadow:0 18px 100px #0009;max-height:66vh}body.reading-note #dialogText{color:#382e24}body.reading-note #label{color:#725a3c}body.reading-note #close{background:#584631;color:#f4e6c6}body.reading-note #dialogText strong{font-weight:600}
+
+#settings{background:#101a1c;color:#f3ead4;border:1px solid #c8b98c66;padding:28px;width:min(480px,calc(100% - 32px));max-height:88dvh;overflow:auto;box-shadow:0 20px 100px #0009}#settings::backdrop{background:#060a0bb3}#settings h2{font-size:27px;font-weight:400;margin:12px 0 24px}.bindings{display:grid;grid-template-columns:1fr 1.3fr;gap:12px 20px;font-size:15px;line-height:1.4}.bindings dt{color:#aebdb7}.bindings dd{margin:0}#settings fieldset{border:1px solid #c8b98c44;margin:25px 0 18px;padding:15px}#settings legend{font-size:15px;padding:0 8px}#settings label{display:flex;align-items:center;gap:10px;min-height:44px;font-size:16px}#settings input{width:20px;height:20px;accent-color:#dcc699;flex-shrink:0}#settings p{font:14px/1.5 Georgia,serif;color:#bbc6ba}#settingsClose{background:#dcc699;color:#172025;border:0;padding:12px 26px;width:100%;font-size:16px}body.settings-open #touch,body.settings-open #crosshair,body.settings-open #prompt{visibility:hidden}button:focus-visible,input:focus-visible{outline:2px solid #edce87;outline-offset:4px}@media(max-width:420px){#settings{padding:22px}.bindings{grid-template-columns:1fr;gap:4px}.bindings dd{margin-bottom:10px}}
+
+body.reading-panel #dialog{background:#222638;color:#d3d1da;border-color:#79798c;max-height:66dvh}body.reading-panel #dialogText{color:#d3d1da;font:15px/1.65 monospace;white-space:pre-wrap}body.reading-panel #label{color:#a8a7ba}body.reading-panel #close{background:#9090a4;color:#161b28}
+
+/* A single continuous page; the binding and close control stay visible while reading. */
+#bookReader{width:min(780px,calc(100% - 32px));max-height:88dvh;padding:0;border:1px solid #807451;border-left:13px solid #44503b;background:#e2d6b5;color:#332f24;box-shadow:inset 5px 0 12px #6b593126,0 24px 100px #0008;overflow:hidden}
+#bookReader[open]{display:flex;flex-direction:column}
+#bookReader::backdrop{background:#08100cba}
+.book-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:25px 34px 18px;border-bottom:1px solid #9a886355;flex-shrink:0}
+#bookReader .eyebrow{font:12px/1.6 monospace;letter-spacing:1.3px;color:#706548}
+#bookTitle{font:normal 28px/1.2 Georgia,serif;margin:8px 0 0}
+#bookClose{background:transparent;border:1px solid #75684988;color:#4e4733;min-height:44px;padding:9px 14px;font:14px Georgia,serif;white-space:nowrap}
+#bookClose:hover{background:#a38f5820}
+#bookText{overflow-y:auto;overscroll-behavior:contain;padding:24px 34px 36px;min-height:0;font:18px/1.75 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere;tab-size:4;scrollbar-color:#8a805d #d7cba9}
+#bookText hr{border:0;border-top:1px solid #9a886366;margin:18px 0}
+#bookText:focus-visible{outline:2px solid #8a7951;outline-offset:-5px}
+body.reading-book #touch,body.reading-book #crosshair,body.reading-book #prompt,body.reading-book footer,body.reading-book #help{visibility:hidden}
+@media(max-width:600px){#bookReader{max-height:90dvh;border-left-width:8px}.book-heading{padding:18px;gap:12px}#bookTitle{font-size:23px}#bookReader .eyebrow{font-size:11px;letter-spacing:.7px}#bookText{padding:18px 20px 28px;font-size:16px;line-height:1.65}#bookClose{padding:9px 10px;font-size:13px}}
+
+body.listening-mask #dialog{background:#241d23f2;border-color:#bba07877;bottom:4vh;max-height:44dvh}body.listening-mask #label{color:#d3b988}
+
+/* The Moon volume keeps the source layout intact, with one entire entry per leaf. */
+#bookReader.moon-book{border-color:#767889;border-left-color:#303342;background:#d2d2ce;color:#292c36;box-shadow:inset 5px 0 16px #292d4220,0 24px 100px #000a}
+#bookReader.moon-book::backdrop{background:#090c19c7}
+#bookReader.moon-book .eyebrow{color:#606372}
+#bookReader.moon-book .book-heading{border-color:#777a8b55}
+#bookReader.moon-book #bookText{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:16px;line-height:1.65;white-space:pre;overflow:auto;overflow-wrap:normal;tab-size:4;scrollbar-color:#858897 #c0c2c6}
+#bookReader.moon-book .book-wrapped-note{display:block;max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}
+#bookReader.moon-book #bookClose{color:#3c4050;border-color:#777a8b88}
+#bookPages{display:flex;flex-shrink:0;align-items:center;justify-content:space-between;gap:12px;padding:14px 24px;border-top:1px solid #777a8b55}
+#bookPages[hidden]{display:none}
+#bookPages button{background:#393e51;color:#e1e1dd;border:1px solid #636a81;padding:10px 14px;min-height:44px;font-size:16px}
+#bookPages button:disabled{opacity:.4;cursor:default}
+#bookPageCount{font:14px/1.4 Georgia,serif;text-align:center}
+@media(max-width:600px){#bookPages{padding:12px;gap:8px}#bookPages button{padding:10px;font-size:14px}#bookReader.moon-book #bookText{padding:18px;}}
+
+#musicToggle{position:absolute;right:30px;top:76px;min-height:40px;font-size:14px}
+#settings #musicVolume{width:auto;min-width:100px;flex:1;height:28px;margin-left:14px}
+body.reading-book #musicToggle{visibility:hidden}
+@media(max-width:600px){#musicToggle{right:22px;top:68px}}

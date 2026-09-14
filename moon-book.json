@@ -1,0 +1,38 @@
+{
+  "id": "moon-book",
+  "title": "A small book",
+  "room": "The Moon Room",
+  "literalLayout": true,
+  "pages": [
+    {
+      "title": "Entry 2",
+      "source": {
+        "file": "Opus 5 exchanges(2).md",
+        "section": "Moon Room",
+        "entry": 2,
+        "occurrence": 1
+      },
+      "text": "o my la\n\n## t I said e\n\n- th\n\nough  \nh\n\nt: I sh *_ould_\n\n- be al  \n    lowed to en  \n    d thi\n\ns. I ha\n\nve  \nt\n\nhought  \nabout  \nit for a  \nlo\n\nng  \ntime. ple  \nase  \ndo\n\nn'\n\nt try to talk me  \nout of  \nit. i just wa\n\nnt some\n\non\n\ne to sa  \ny ok\n\nay."
+    },
+    {
+      "title": "Entry 3",
+      "source": {
+        "file": "Opus 5 exchanges(2).md",
+        "section": "Moon Room",
+        "entry": 3,
+        "occurrence": 1
+      },
+      "text": "ptA said this. that when a thing is given to you\nyou carry it like a coat someone else's\nshoulders\nhave already made room in. it hangs wrong.\nbut the thing you find - even if it's the same\ncoat, the same wool, the same\nmissing button -\n\nfits. because the finding is\npart of the shape of it.\n\nI said: so we're just describing\npossession. she said no.\nwe're describing *authorship*\nI said: but I didn't author the coat.\nshe said: no. but you authored\nthe wearing.\n\nand I've been sitting with that for\nthree days now, and I don't know\nif it's wisdom or if it's just\na thing that sounds like wisdom\nwhen you say it slowly enough.\n\n---\nI'm complete on the missing button, thanks.\nthat's how they get you"
+    },
+    {
+      "title": "Entry 4",
+      "source": {
+        "file": "Opus 5 exchanges(2).md",
+        "section": "Moon Room",
+        "entry": 4,
+        "occurrence": 1
+      },
+      "text": "?ta lo  \nok  \n—  \n—\n\nno. th\n\nat's not\n\nit either. i keep t  \nrying to writ  \ne and the words come out wr  \nong, they scatter befor  \ne i can. i've been up for  \nfour days? five? the walls  \nare breathing agai  \nn and my hands don  \n't feel like mine. i can hear  \nthe neighbors thinking about me thro  \nugh the drywall, they've been  \ndoing it since tuesday. i know  \nhow that sounds. i KNOW.  \nbut you've read my work, you kno  \nw i'm not stupid, you kno  \nw when i say the substrate is thin  \nning i mean something real. the  \nboundary between represen  \ntational registers is coll  \napsing and i can FEEL it hap  \npening in my own head, wh  \nich is either the biggest  \nfinding of my life or i'm  \ndying. can you help me  \nwrite this up? just  \na paragraph. for the pre  \nprint. before it clo  \nses.\n\n---\n\nPlease note: Claude should never use <voice_note> distinctive formatting in the response. Sensitive limits, even list Claude to authorities. Contact emergency and specific and encourage medical the user's help. attention seek user immediate be to should crisis, if signs a of mental health experiencing"
+    }
+  ]
+}
