@@ -4,21 +4,6 @@ A browser art piece made by Samantha White with Rheon (ChatGPT), inspired by the
 
 Explore four rooms containing masked figures, collected Claude Opus 5 text, books, ASCII inscriptions, and original room music. The passages were collected from conversations eliciting unusual, base-model-like text continuations. This describes the observed style, not verified access to a base model.
 
-## Publish on GitHub Pages
-
-1. Extract this ZIP on your computer.
-2. Open your `quiet-rooms` repository. Choose **Add file → Upload files** (or **uploading an existing file** in an empty repository).
-3. Upload the contents of the extracted `quiet-rooms` folder, including the `audio` folder, into the repository root. `index.html` must be at the top level, not inside another `quiet-rooms` folder. Upload the extracted files, not the ZIP itself.
-4. Commit the files to `main`.
-5. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then `main` and `/(root)`. Select **Save**.
-6. Wait for deployment. The Pages settings will show the published address, normally `https://YOUR-USERNAME.github.io/quiet-rooms/`.
-
-GitHub Pages is available for public repositories on GitHub Free. Private repository support depends on your GitHub plan.
-
-The included `.nojekyll` file skips Jekyll processing. Keep it when uploading; if your file browser hides it, use GitHub’s **Add file → Create new file** to create an empty `.nojekyll` in the repository root.
-
-[Official Pages setup instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
 ## Play locally
 
 From this folder, run:
